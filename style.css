@@ -8,15 +8,14 @@
 
 /* 1rem = 16px */
 /* 40px = 2.5rem */
-
 :root {
     --gray--800: #1E293B;
     --gray--600: #475569;
+    --purple: #7c3aed;
 }
 
 /* numero = 20 */
 /* print(numero */
-
 header {
     background-image: url(./imagens/bg-mobile.png);
     background-size: cover;
@@ -25,7 +24,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-bottom: 3.7rem;
 }
 
@@ -47,6 +45,34 @@ main {
     font-size: 0.8125rem;
     color: var(--gray--600);
     margin-bottom: 2.5rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login label {
+    font-size: 0.875rem;
+    color: var(--gray--800);
+    font-weight: 600;
+}
+
+.login a {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 630;
+}
+
+.login a:hover {
+    text-decoration: underline;
 }
 
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
