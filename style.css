@@ -1,41 +1,52 @@
-*{
+* {
     /* reset do CSS */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
+
 /* 1rem = 16px */
 /* 40px = 2.5rem */
 
-:root{
+:root {
     --gray--800: #1E293B;
     --gray--600: #475569;
 }
+
 /* numero = 20 */
 /* print(numero */
 
-header{
+header {
     background-image: url(./imagens/bg-mobile.png);
     background-size: cover;
     height: 8.375rem;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 
-    
     margin-bottom: 3.7rem;
 }
 
-main{
+main {
     padding-inline: 1.5rem;
 }
 
-.descricao h1{
+.descricao {
+    margin-bottom: 2.5rem;
+}
+
+.descricao h1 {
     color: var(--gray--800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;
+}
+
+.descricao p {
+    font-size: 0.8125rem;
+    color: var(--gray--600);
+    margin-bottom: 2.5rem;
 }
 
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
