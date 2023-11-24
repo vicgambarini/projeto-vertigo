@@ -14,6 +14,7 @@
     --gray--400: #94a3b8;
     --gray--200: #e2e8f0;
     --purple: #7c3aed;
+    --white: #fff;
 }
 
 /* numero = 20 */
@@ -26,7 +27,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     margin-bottom: 3.7rem;
 }
 
@@ -88,11 +88,24 @@ main {
     color: var(--purple);
     text-decoration: none;
     font-size: 0.875rem;
-    font-weight: 630;
+    font-weight: 600;
 }
 
 .login a:hover {
     text-decoration: underline;
+}
+
+.login button {
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width: 100%;
+    background-color: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
 }
 
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
